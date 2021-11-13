@@ -17,7 +17,7 @@ def get_jokes(n, repeat):
             word_1 = random.choice(nouns)
             word_2 = random.choice(adverbs)
             word_3 = random.choice(adjectives)
-            joke = f"{word_1} {word_2} {word_3} \n"
+            joke = f"{word_1} {word_2} {word_3}\n"
             #Если слова не должны повторяться, то удалить их из списков
             if repeat == False:
                 nouns.remove(word_1)
