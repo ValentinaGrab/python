@@ -13,7 +13,6 @@
 import os
 
 files_size_list = []
-#os.chdir('../')
 
 for dirpath, dirname, filenames in os.walk('./'):
     for file in filenames:

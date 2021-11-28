@@ -20,7 +20,7 @@
 #   |     |--authapp
 #   |        |--base.html
 #   |        |--index.html
-import ntpath
+
 import os
 import shutil
 
